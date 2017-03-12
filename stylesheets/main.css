@@ -1,35 +1,60 @@
-.active-nav-route {
-  text-decoration: underline; }
+@media screen and (max-width: 768px) {
+  .wrapper {
+    text-align: center; }
 
-.navbar-container {
-  background-color: #e0e0e0;
-  display: flex;
-  justify-content: space-between; }
+  .introduction {
+    width: 350px;
+    text-align: center;
+    clear: both; }
 
-.navbar-item {
-  margin: 25px;
-  white-space: nowrap; }
+  .picture {
+    width: 50%;
+    margin: 0, auto;
+    clear: both; } }
+@media screen and (min-width: 768px) {
+  .content {
+    max-width: 1000px; }
 
-.wrapper {
-  background-color: #f0f0f0;
-  text-align: center; }
+  .introduction {
+    padding-top: 35px;
+    padding-left: 35px;
+    width: 450px; }
 
-.content {
-  margin-top: 75px;
-  width: 700px;
-  display: inline-block; }
+  .title {
+    padding-left: 35px;
+    font-size: 50px; }
 
-.left {
-  margin-top: 75px;
-  width: 350px;
-  float: left; }
+  .picture {
+    width: 350px;
+    padding-right: 35px;
+    float: right; } }
+@media screen and (max-width: 768px) {
+  .active-nav-route {
+    text-decoration: underline; }
 
-.left h1 {
-  font-size: 70px; }
+  .navbar-container {
+    text-align: center;
+    justify-content: space-between; }
 
-.right {
-  width: 350px;
-  float: right; }
+  .navbar-item {
+    margin: 25px;
+    white-space: nowrap; } }
+@media screen and (min-width: 768px) {
+  .active-nav-route {
+    text-decoration: underline; }
+
+  .navbar-container {
+    margin-top: 35px;
+    width: 20%;
+    max-width: 1000px; }
+
+  .navbar-item {
+    display: block;
+    margin: 25px;
+    white-space: nowrap; } }
+.container {
+  background-color: #C8C8C8;
+  width: 100%; }
 
 .outer {
   display: table;
