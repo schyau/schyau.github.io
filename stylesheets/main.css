@@ -85,10 +85,9 @@ hr {
 .navbar-item:hover {
   color: #5478e4; }
 
-.active-nav-route:visited {
-  color: #5478e4; }
-
-.active-nav-route {
+.active-nav-route:visited,
+.active-nav-route,
+.active-nav-route:link {
   color: #5478e4;
   pointer-events: none;
   cursor: default;
